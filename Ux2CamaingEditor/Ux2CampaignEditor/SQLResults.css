@@ -1,0 +1,81 @@
+﻿.sortable th
+{
+    height:25px;
+    background-image:url('navilinks_background.png');
+
+    border-top:solid 1px #b5b5b5;
+    border-bottom:solid 1px #b5b5b5;
+    border-right:solid 1px #b5b5b5;
+
+    border-right-width:1px;
+    border-left-width:0px;
+    cursor:pointer;
+    width:15%;
+
+}
+
+th.FirstCol
+{
+
+    height:25px;
+    width:15%;
+    
+    background-image:url('navilinks_background.png');
+    
+    border-top:solid 1px #b5b5b5;
+    border-left:solid 1px #b5b5b5;
+    border-bottom:solid 1px #b5b5b5;
+    
+    cursor:pointer;
+}
+
+
+th.LastCol
+{  
+
+    height:25px;
+    background-image:url('navilinks_background.png');
+    border:solid 1px #b5b5b5;
+    cursor:pointer;
+
+    width:70%;
+    border-left-width:0px;
+     
+}
+
+.sortable
+{
+    border-collapse:collapse;
+}
+
+.sortable td
+{
+    border-collapse:collapse;
+    text-align:center;
+    margin:0px;
+}
+
+.alt_row_0
+{
+    background-color:#F0F0F0;
+}
+
+.sortable th:link
+{
+}
+
+.sortable th:visited
+{
+}
+
+.sortable th:hover
+{
+    background-image:url('navilinks_background_flip.png');
+    background-repeat:repeat-x;
+    padding-top:1px;
+    
+}
+
+.sortable th:active
+{
+}

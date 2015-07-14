@@ -1,0 +1,5 @@
+D:\Programming\Gano\CSharp\Ux2CamaingEditor\Ux2CampaingEditorAPI\bin\Debug\Ux2CamaingEditor.dll
+D:\Programming\Gano\CSharp\Ux2CamaingEditor\Ux2CampaingEditorAPI\bin\Debug\Ux2CamaingEditor.pdb
+D:\Programming\Gano\CSharp\Ux2CamaingEditor\Ux2CampaingEditorAPI\obj\Debug\ResolveAssemblyReference.cache
+D:\Programming\Gano\CSharp\Ux2CamaingEditor\Ux2CampaingEditorAPI\obj\Debug\Ux2CamaingEditor.dll
+D:\Programming\Gano\CSharp\Ux2CamaingEditor\Ux2CampaingEditorAPI\obj\Debug\Ux2CamaingEditor.pdb

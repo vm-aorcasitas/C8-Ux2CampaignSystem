@@ -1,0 +1,5 @@
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2ScheduleProcessor\bin\Debug\Ux2ScheduleProcessor.dll
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2ScheduleProcessor\bin\Debug\Ux2ScheduleProcessor.pdb
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2ScheduleProcessor\obj\Debug\ResolveAssemblyReference.cache
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2ScheduleProcessor\obj\Debug\Ux2ScheduleProcessor.dll
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2ScheduleProcessor\obj\Debug\Ux2ScheduleProcessor.pdb

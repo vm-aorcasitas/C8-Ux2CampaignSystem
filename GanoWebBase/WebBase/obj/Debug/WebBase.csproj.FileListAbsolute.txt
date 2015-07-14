@@ -1,0 +1,12 @@
+D:\Programming\Gano\c#\GanoWebBase\WebBase\bin\Debug\WebBase.dll.config
+D:\Programming\Gano\c#\GanoWebBase\WebBase\bin\Debug\WebBase.dll
+D:\Programming\Gano\c#\GanoWebBase\WebBase\bin\Debug\WebBase.pdb
+D:\Programming\Gano\c#\GanoWebBase\WebBase\obj\Debug\ResolveAssemblyReference.cache
+D:\Programming\Gano\c#\GanoWebBase\WebBase\obj\Debug\WebBase.dll
+D:\Programming\Gano\c#\GanoWebBase\WebBase\obj\Debug\WebBase.pdb
+D:\Programming\Gano\CSharp\GanoWebBase\WebBase\bin\Debug\WebBase.dll.config
+D:\Programming\Gano\CSharp\GanoWebBase\WebBase\bin\Debug\WebBase.dll
+D:\Programming\Gano\CSharp\GanoWebBase\WebBase\bin\Debug\WebBase.pdb
+D:\Programming\Gano\CSharp\GanoWebBase\WebBase\obj\Debug\ResolveAssemblyReference.cache
+D:\Programming\Gano\CSharp\GanoWebBase\WebBase\obj\Debug\WebBase.dll
+D:\Programming\Gano\CSharp\GanoWebBase\WebBase\obj\Debug\WebBase.pdb

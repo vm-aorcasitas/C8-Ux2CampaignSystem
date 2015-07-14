@@ -1,0 +1,14 @@
+D:\Programming\Gano\c#\GanoWebBase\Authenticate\bin\Authenticate.dll
+D:\Programming\Gano\c#\GanoWebBase\Authenticate\bin\Authenticate.pdb
+D:\Programming\Gano\c#\GanoWebBase\Authenticate\obj\Debug\ResolveAssemblyReference.cache
+D:\Programming\Gano\c#\GanoWebBase\Authenticate\obj\Debug\Authenticate.dll
+D:\Programming\Gano\c#\GanoWebBase\Authenticate\obj\Debug\Authenticate.pdb
+D:\Programming\Gano\c#\GanoWebBase\Authenticate\bin\WebBase.dll
+D:\Programming\Gano\c#\GanoWebBase\Authenticate\bin\WebBase.pdb
+D:\Programming\Gano\CSharp\GanoWebBase\Authenticate\bin\Authenticate.dll
+D:\Programming\Gano\CSharp\GanoWebBase\Authenticate\bin\Authenticate.pdb
+D:\Programming\Gano\CSharp\GanoWebBase\Authenticate\bin\WebBase.dll
+D:\Programming\Gano\CSharp\GanoWebBase\Authenticate\bin\WebBase.pdb
+D:\Programming\Gano\CSharp\GanoWebBase\Authenticate\obj\Debug\ResolveAssemblyReference.cache
+D:\Programming\Gano\CSharp\GanoWebBase\Authenticate\obj\Debug\Authenticate.dll
+D:\Programming\Gano\CSharp\GanoWebBase\Authenticate\obj\Debug\Authenticate.pdb

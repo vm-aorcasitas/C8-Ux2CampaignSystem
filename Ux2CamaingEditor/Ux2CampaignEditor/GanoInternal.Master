@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GanoInternal.master.cs" Inherits="GanoExcel.InternalWebMasterPage.GanoInternal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head runat="server">
+    
+        
+        <link rel="stylesheet" type="text/css" href="GanoInternal.css"/>
+        <title></title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+    <body>
+        
+        <div id="allDiv">
+            <div id="backgroundTopDiv"></div>
+            <div id="backgroundMiddleDiv"></div>
+            <div id="backgroundBottomDiv"></div>
+            <form id="GanoInternal" runat="server">
+                
+                    
+                <div id="bodyDiv">
+                   <div id="contentDiv">
+                                                        
+                        <div id="headerDiv">
+                            <div id="headerImageDiv"></div>
+                            <div id="headerLogoDiv"></div>
+                            
+                            <p id="siteTitleParagraph">
+                                <asp:Label ID="siteTitleLabel" runat="server" CssClass="SiteTitle">Site Title</asp:Label>
+                            </p>
+                            
+                            <p id="userNameParagraph">
+                                <asp:Label ID="userLabel" runat="server" CssClass="UserLabel">User Name</asp:Label>
+                            </p>
+                            <ul id="headerList">
+                                <li id="backListItem">
+                                    <asp:LinkButton ID="backLinkButton" runat="server" cssclass="HeaderLinks">&lt;&lt; Back</asp:LinkButton>
+                                </li>
+                                <li id="logOutListItem">
+                                    <asp:LinkButton ID="logOutButton" runat="server" onclick="logOutButton_Click" CssClass="HeaderLinks">Log Out</asp:LinkButton>
+                                </li>
+                            </ul>
+                            
+                            <div id="headerOverlayDiv"></div>
+                            
+                        </div>
+                        <div id="titleDiv">
+                            <img src="title2.png" alt="Title" id="titleImg" />
+                            <div id="titleTextDiv">
+                                <asp:Label runat="server" CssClass="PageTitle" ID="pageTitleLabel" Text="Page Title">Page Title</asp:Label>         
+                                <asp:Label runat="server" CssClass="PageDescription" ID="pageDescriptionLabel" Text="Page Description"></asp:Label>             
+                            </div>
+                            
+                        </div>
+                        <div id="mainPageDiv">
+                            <asp:ContentPlaceHolder ID="bodyContentPlaceHolder" runat="server">
+                            
+                            </asp:ContentPlaceHolder>    
+                        </div>  
+                        <div id="mainPageFooterDiv">
+                            <asp:Label ID="footerLabel" runat="server" CssClass="FooterLabel"></asp:Label>
+                        </div> 
+                        <div id="footerOverlayDiv"></div>
+                        <div id="footerDiv">
+                            <asp:ContentPlaceHolder ID="footerContentPlaceHolder" runat="server">
+                            
+                            </asp:ContentPlaceHolder>       
+                        </div>
+                    </div>
+                    
+                </div>
+                <asp:Label ID="versionLabel" class="Version" runat="server" Text="Label"></asp:Label>
+            </form>
+        </div>
+    </body>
+</html>

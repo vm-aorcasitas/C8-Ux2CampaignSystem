@@ -1,0 +1,8 @@
+D:\_VMDev\C8-Ux2CampaignSystem-master\C8-Ux2CampaignSystem-master\Ux2CampaignService\Ux2ScheduleProcessor\bin\Release\Ux2ScheduleProcessor.dll
+D:\_VMDev\C8-Ux2CampaignSystem-master\C8-Ux2CampaignSystem-master\Ux2CampaignService\Ux2ScheduleProcessor\bin\Release\Ux2ScheduleProcessor.pdb
+D:\_VMDev\C8-Ux2CampaignSystem-master\C8-Ux2CampaignSystem-master\Ux2CampaignService\Ux2ScheduleProcessor\obj\Release\Ux2ScheduleProcessor.dll
+D:\_VMDev\C8-Ux2CampaignSystem-master\C8-Ux2CampaignSystem-master\Ux2CampaignService\Ux2ScheduleProcessor\obj\Release\Ux2ScheduleProcessor.pdb
+D:\_VMDev\C8-Ux2CampaignSystem\Ux2CampaignService\Ux2ScheduleProcessor\bin\Release\Ux2ScheduleProcessor.dll
+D:\_VMDev\C8-Ux2CampaignSystem\Ux2CampaignService\Ux2ScheduleProcessor\bin\Release\Ux2ScheduleProcessor.pdb
+D:\_VMDev\C8-Ux2CampaignSystem\Ux2CampaignService\Ux2ScheduleProcessor\obj\Release\Ux2ScheduleProcessor.dll
+D:\_VMDev\C8-Ux2CampaignSystem\Ux2CampaignService\Ux2ScheduleProcessor\obj\Release\Ux2ScheduleProcessor.pdb

@@ -1,0 +1,6 @@
+D:\_VMDev\C8-Ux2CampaignSystem-master\C8-Ux2CampaignSystem-master\Ux2CampaignService\ServiceDebuggerHelper\bin\Release\ServiceDebuggerHelper.dll
+D:\_VMDev\C8-Ux2CampaignSystem-master\C8-Ux2CampaignSystem-master\Ux2CampaignService\ServiceDebuggerHelper\bin\Release\ServiceDebuggerHelper.pdb
+D:\_VMDev\C8-Ux2CampaignSystem-master\C8-Ux2CampaignSystem-master\Ux2CampaignService\ServiceDebuggerHelper\obj\Release\ServiceDebuggerHelper.ServiceRunner.resources
+D:\_VMDev\C8-Ux2CampaignSystem-master\C8-Ux2CampaignSystem-master\Ux2CampaignService\ServiceDebuggerHelper\obj\Release\ServiceDebuggerHelper.csproj.GenerateResource.Cache
+D:\_VMDev\C8-Ux2CampaignSystem-master\C8-Ux2CampaignSystem-master\Ux2CampaignService\ServiceDebuggerHelper\obj\Release\ServiceDebuggerHelper.dll
+D:\_VMDev\C8-Ux2CampaignSystem-master\C8-Ux2CampaignSystem-master\Ux2CampaignService\ServiceDebuggerHelper\obj\Release\ServiceDebuggerHelper.pdb

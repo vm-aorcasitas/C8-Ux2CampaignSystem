@@ -1,0 +1,11 @@
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2CampaignService\obj\Debug\ResolveAssemblyReference.cache
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2CampaignService\bin\Debug\Ux2CampaignService.exe
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2CampaignService\bin\Debug\Ux2CampaignService.pdb
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2CampaignService\bin\Debug\ServiceDebuggerHelper.dll
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2CampaignService\bin\Debug\Ux2ScheduleProcessor.dll
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2CampaignService\bin\Debug\ServiceDebuggerHelper.pdb
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2CampaignService\bin\Debug\Ux2ScheduleProcessor.pdb
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2CampaignService\obj\Debug\Ux2CampaignService.exe
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2CampaignService\obj\Debug\Ux2CampaignService.pdb
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2CampaignService\obj\Debug\GanoExcel.Ux2.ProjectInstaller.resources
+D:\Programming\Gano\CSharp\Ux2CampaignService\Ux2CampaignService\obj\Debug\Ux2CampaignService.csproj.GenerateResource.Cache

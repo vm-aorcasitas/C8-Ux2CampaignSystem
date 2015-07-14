@@ -1,0 +1,10 @@
+D:\Programming\Gano\CSharp\GanoWebBase\WebBaseFoo\bin\Release\WebBaseFoo.exe
+D:\Programming\Gano\CSharp\GanoWebBase\WebBaseFoo\bin\Release\WebBaseFoo.pdb
+D:\Programming\Gano\CSharp\GanoWebBase\WebBaseFoo\bin\Release\WebBase.dll
+D:\Programming\Gano\CSharp\GanoWebBase\WebBaseFoo\bin\Release\WebBase.pdb
+D:\Programming\Gano\CSharp\GanoWebBase\WebBaseFoo\obj\Release\ResolveAssemblyReference.cache
+D:\Programming\Gano\CSharp\GanoWebBase\WebBaseFoo\obj\Release\WebBaseFoo.Form1.resources
+D:\Programming\Gano\CSharp\GanoWebBase\WebBaseFoo\obj\Release\WebBaseFoo.Properties.Resources.resources
+D:\Programming\Gano\CSharp\GanoWebBase\WebBaseFoo\obj\Release\WebBaseFoo.csproj.GenerateResource.Cache
+D:\Programming\Gano\CSharp\GanoWebBase\WebBaseFoo\obj\Release\WebBaseFoo.exe
+D:\Programming\Gano\CSharp\GanoWebBase\WebBaseFoo\obj\Release\WebBaseFoo.pdb

@@ -1,0 +1,23 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GanoExcel.Ux2CampaignEditor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EmailTemplateEditorURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:4177/Login.aspx</Value>
+    </Setting>
+    <Setting Name="Ux2CampaignEditor_Authentication_Authentication" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:2076/Authentication.asmx</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=72.18.14.219,50513;Initial Catalog=GANO_INTL1;Persist Security Info=True;User ID=merydion;Password=0v3ru$3dPW;</Value>
+    </Setting>
+    <Setting Name="DefaultConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=108.60.219.23;Initial Catalog=C8_CLIENT0_OPS;Persist Security Info=True;User ID=C8_CL0;Password=J311yf1sh#&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=108.60.219.23;Initial Catalog=C8_CLIENT0_OPS;Persist Security Info=True;User ID=C8_CL0;Password=J311yf1sh#</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.ganoexcel.us/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.ganoexcel.us/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.ganoexcel.us/">
+      <s:element name="Authenticate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenticateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AuthenticateResult" type="tns:User" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="User">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="LoginName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MiddleInitial" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DefaultLanguage" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DefaultWarehouse" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DefaultCountry" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="LastLogin" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="PasswordChangeRequired" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Deleted" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="IsUserAuthorized">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="securityCode" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsUserAuthorizedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IsUserAuthorizedResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="User" nillable="true" type="tns:User" />
+      <s:element name="boolean" type="s:boolean" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AuthenticateSoapIn">
+    <wsdl:part name="parameters" element="tns:Authenticate" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateSoapOut">
+    <wsdl:part name="parameters" element="tns:AuthenticateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsUserAuthorizedSoapIn">
+    <wsdl:part name="parameters" element="tns:IsUserAuthorized" />
+  </wsdl:message>
+  <wsdl:message name="IsUserAuthorizedSoapOut">
+    <wsdl:part name="parameters" element="tns:IsUserAuthorizedResponse" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateHttpGetIn">
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateHttpGetOut">
+    <wsdl:part name="Body" element="tns:User" />
+  </wsdl:message>
+  <wsdl:message name="IsUserAuthorizedHttpGetIn">
+    <wsdl:part name="userId" type="s:string" />
+    <wsdl:part name="securityCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="IsUserAuthorizedHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:portType name="AuthenticationSoap">
+    <wsdl:operation name="Authenticate">
+      <wsdl:input message="tns:AuthenticateSoapIn" />
+      <wsdl:output message="tns:AuthenticateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsUserAuthorized">
+      <wsdl:input message="tns:IsUserAuthorizedSoapIn" />
+      <wsdl:output message="tns:IsUserAuthorizedSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AuthenticationHttpGet">
+    <wsdl:operation name="Authenticate">
+      <wsdl:input message="tns:AuthenticateHttpGetIn" />
+      <wsdl:output message="tns:AuthenticateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsUserAuthorized">
+      <wsdl:input message="tns:IsUserAuthorizedHttpGetIn" />
+      <wsdl:output message="tns:IsUserAuthorizedHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AuthenticationSoap" type="tns:AuthenticationSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Authenticate">
+      <soap:operation soapAction="http://www.ganoexcel.us/Authenticate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUserAuthorized">
+      <soap:operation soapAction="http://www.ganoexcel.us/IsUserAuthorized" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AuthenticationSoap12" type="tns:AuthenticationSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Authenticate">
+      <soap12:operation soapAction="http://www.ganoexcel.us/Authenticate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUserAuthorized">
+      <soap12:operation soapAction="http://www.ganoexcel.us/IsUserAuthorized" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AuthenticationHttpGet" type="tns:AuthenticationHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="Authenticate">
+      <http:operation location="/Authenticate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUserAuthorized">
+      <http:operation location="/IsUserAuthorized" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Authentication">
+    <wsdl:port name="AuthenticationSoap" binding="tns:AuthenticationSoap">
+      <soap:address location="http://api.ganocorp.com/WebServices/Base/Authentication.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AuthenticationSoap12" binding="tns:AuthenticationSoap12">
+      <soap12:address location="http://api.ganocorp.com/WebServices/Base/Authentication.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AuthenticationHttpGet" binding="tns:AuthenticationHttpGet">
+      <http:address location="http://api.ganocorp.com/WebServices/Base/Authentication.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
